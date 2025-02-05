@@ -1,0 +1,99 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#confirmation {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #e7f9e7;
+  border: 1px solid #c8e6c9;
+  color: #2e7d32;
+  border-radius: 5px;
+}
+/* Adicionando destaque ao campo de nome */
+input#name {
+  border: 2px solid #333;
+}
+/* styles.css */
+#pricing {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#pricing table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pricing th, #pricing td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#pricing th {
+  background-color: #333;
+  color: white;
+}
+
+#pricing tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#pricing tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+#pricing h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
