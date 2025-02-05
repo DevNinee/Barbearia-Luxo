@@ -1,0 +1,71 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento - Barbearia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Barbearia Luxo</h1>
+    <p>Agende o seu horário com estilo!</p>
+  </header>
+
+  <main>
+    <!-- Tabela de Preços -->
+    <section id="pricing">
+      <h2>Tabela de Preços</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Serviço</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Corte</td>
+            <td>R$ 30,00</td>
+          </tr>
+          <tr>
+            <td>Barba</td>
+            <td>R$ 20,00</td>
+          </tr>
+          <tr>
+            <td>Corte + Barba</td>
+            <td>R$ 45,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Formulário de Agendamento -->
+    <form id="booking-form">
+      <label for="name">Digite seu nome:</label>
+      <input type="text" id="name" placeholder="Seu nome" required>
+
+      <label for="service">Escolha o serviço:</label>
+      <select id="service" required>
+        <option value="">Selecione...</option>
+        <option value="Corte">Corte</option>
+        <option value="Barba">Barba</option>
+        <option value="Corte + Barba">Corte + Barba</option>
+      </select>
+      
+      <label for="date">Escolha a data:</label>
+      <input type="date" id="date" required>
+      
+      <label for="time">Escolha o horário:</label>
+      <input type="time" id="time" required>
+      
+      <button type="submit">Agendar</button>
+    </form>
+    <div id="confirmation"></div>
+  </main>
+  <footer>
+    <p>© 2025 Barbearia Luxo. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
